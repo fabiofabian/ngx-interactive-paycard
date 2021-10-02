@@ -13,8 +13,7 @@ import { IfUndefinedChangesDirective } from './shared/if-undefined-changes.direc
   declarations: [InteractivePaycardComponent, CardComponent, IfUndefinedChangesDirective, IfEveryChangesDirective],
   imports: [
     FormsModule,
-    CommonModule,
-    BrowserAnimationsModule
+    CommonModule
   ],
   exports: [InteractivePaycardComponent]
 })
